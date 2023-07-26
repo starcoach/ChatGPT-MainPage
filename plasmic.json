@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "files",
@@ -39,7 +39,8 @@
           "displayName": "hostless-loading-boundary",
           "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "jkU633o1Cz7HrJdwdxhVHk",
@@ -81,7 +82,8 @@
           "displayName": "hostless-rich-list",
           "componentImportPath": "@plasmicpkgs/plasmic-rich-components"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "ohDidvG9XsCeFumugENU3J",
@@ -297,7 +299,8 @@
           "displayName": "plasmic-antd5-date-picker",
           "componentImportPath": "@plasmicpkgs/antd5/skinny/registerDatePicker"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "pLBFvp9kB8xxJps5wo2orW",
@@ -368,6 +371,19 @@
             "modulePath": "Login.tsx"
           },
           "cssFilePath": "plasmic/app_starter/PlasmicLogin.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "nSucb-HtVy",
+          "name": "WelcomePage",
+          "type": "managed",
+          "projectId": "pLBFvp9kB8xxJps5wo2orW",
+          "renderModuleFilePath": "plasmic/app_starter/PlasmicWelcomePage.tsx",
+          "importSpec": {
+            "modulePath": "WelcomePage.tsx"
+          },
+          "cssFilePath": "plasmic/app_starter/PlasmicWelcomePage.module.css",
           "scheme": "blackbox",
           "componentType": "page"
         }

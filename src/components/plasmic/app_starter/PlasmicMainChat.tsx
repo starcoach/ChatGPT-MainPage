@@ -413,7 +413,7 @@ function PlasmicMainChat__RenderFunc(props: {
                   sty.text__ig2Bv
                 )}
               >
-                {"What is a Chatbot?"}
+                {"Welcome to StarCoach!"}
               </div>
             </div>
             <div
